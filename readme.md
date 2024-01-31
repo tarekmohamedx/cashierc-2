@@ -10,7 +10,7 @@ Footer Section
 
 Colors ->
 Dark Gray: #212529
-White: Litert white
+White: literally white
 
 Frameworks ->
 Flutter Laravel Figma Python OPenCV Bootstrap Github VsCode
