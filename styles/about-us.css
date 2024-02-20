@@ -1,0 +1,35 @@
+.member-dark{
+    border-radius: 8px;
+    color: white;
+    background-color: #3d36c2;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: all 0.8s;
+    border: #3d36c2 1px solid;
+    padding: 3px;
+}
+
+.member-dark:hover{
+    color: #3d36c2;
+    background-color: #ffffff;
+}
+
+.member-light{
+    border-radius: 8px;
+    color: #3d36c2;
+    background-color: #ffffff;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: all 0.8s;
+    border: #3d36c2 1px solid;
+    padding: 3px;
+}
+
+.member-light:hover{
+    color: white;
+    background-color: #3d36c2;
+}
+
+.frameworks{
+    margin-top: 800px;
+}

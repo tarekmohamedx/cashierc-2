@@ -1,0 +1,14 @@
+.about-btn{
+    background-color: white;
+    color: #6c63ff;
+    border: #6c63ff solid 1px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px 11px;
+    transition: 0.8;
+}
+
+.about-btn:hover{
+    background-color:#2e26cc;
+    color: white;
+}

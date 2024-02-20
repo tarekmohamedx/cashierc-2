@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cashierc | Best digital app for your Supermarket</title>
+    <title>Cashierc &#174;   Best digital app for your Supermarket</title>
     <link rel="icon" type="image/x-icon" href="icons/cart-icon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
@@ -15,10 +15,15 @@
     <link rel="stylesheet" href="styles/download.css">
     <link rel="stylesheet" href="styles/cards.css">
     <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/about-us.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+     <!-- Scroll Animation -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />   
 
    <style>
       .cart{
@@ -37,9 +42,9 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
-<body class=" animate__animated animate__zoomIn">
+<body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light mt-3" >
       <div class="container-lg">
         <a class="navbar-brand" href="#">Cashierc</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +64,10 @@
         <button class="btn btn-outline-secondary mx-1">Feedback</button>
         </a>
         <a href="#download">
-          <button class="btn btn-outline-secondary me-3">Download</button>
+          <button class="btn btn-outline-secondary me-1">Download</button>
+        </a>
+        <a href="#about-us">
+          <button class="about-btn me-2">About Us</button>
         </a>
         <h2 class="cart"><i class="bi bi-cart4"></i></h2>
       </div>
@@ -67,19 +75,19 @@
 
 
     <!-- About -->
-    <section id="next" class="home-section text-center" style="margin-top: 90px;">
+    <section id="next" class="home-section text-center" style="margin-top: 90px;" >
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-3">
-            <h1  style="color:rgb(71, 56, 205);" class="title">Cashierc</h1>
-            <h5 class="animate__animated animate__slideInDown">Time is important</h5>
-            <p style="color: rgb(184, 184, 184);" class="animate__animated animate__slideInDown">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, officia?</p>
+          <div class="col-lg-3" >
+            <h1  style="color:rgb(71, 56, 205);" data-aos="zoom-in">Cashierc</h1>
+            <h5 data-aos="zoom-in">Time is important</h5>
+            <p style="color: rgb(184, 184, 184);" data-aos="zoom-in">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, officia?</p>
             <a href="#about">
-              <button class="btn btn-outline-secondary mt-5">More</button>
+              <button class="btn btn-outline-secondary mt-2" >More</button>
             </a>
           </div>
-          <div class="col-lg-6">
-            <img src="assets/undraw_shopping_app_flsj.svg" alt="Supermarket" class="img-fluid animate__animated animate__slideInUp">
+          <div class="col-lg-6" data-aos="zoom-in-up">
+            <img src="assets/undraw_shopping_app_flsj.svg" alt="Supermarket" class="img-fluid">
           </div>
         </div>
       </div>
@@ -90,12 +98,12 @@
         <!-- About part 2 -->
         <div class="container my-5 p-5 " id="about" >
           <div class="row justify-content-between" style="margin-top: 90px;">
-            <div class="col-lg-3 justify-content-center">
-              <img src="assets/undraw_online_groceries_a02y.svg" class="img-fluid animate__animated animate__slideInUp" alt="smart-supermarket">
+            <div class="col-lg-3 justify-content-center" data-aos="fade-down-right">
+              <img src="assets/undraw_online_groceries_a02y.svg" class="img-fluid" alt="smart-supermarket">
             </div>
   
-            <div class="col-lg-9 text-center animate__animated animate__slideInDown">
-              <h2 class="what-is my-3 display-5">What is Cashierc?</h2>
+            <div class="col-lg-9 text-center" data-aos="fade-down-left">
+              <h2 class="what-is my-3 display-5" >What is Cashierc?</h2>
               <p class="lead text-muted">Digital platform that integrates artificial intelligence (AI) technology into the operations and customer experience of a supermarket. This app employs various AI algorithms and tools to enhance different aspects of the supermarket, including inventory management, personalized shopping experiences, dynamic pricing, checkout optimization, predictive analytics, and customer service. By leveraging AI capabilities, the app aims to improve efficiency, convenience, and customer satisfaction while also optimizing inventory, reducing waste, and maximizing profitability for the supermarket. Overall, a "Smart Supermarket with AI" app revolutionizes the traditional supermarket model by introducing advanced technology solutions to streamline operations and enhance the shopping experience for both customers and store operators.</p>
     
               <a href="#video">
@@ -107,20 +115,20 @@
         </div>
 
         <!-- Video -->
-        <section id="video" class="project-video  text-center bg-muted">
+        <section id="video" class="project-video  text-center bg-light">
             <span class="display-6">Project Video</span>
         </section>
 
 
         <!-- Cards, Features -->
        
-    <section id="cards" class="cards-section">
+    <section id="cards" class="cards-section " >
 
       <div class="container">
         <!-- First row -->
-        <div class="row">
-          <div class="col col-lg-4">
-            <div class="card border-info mb-3">
+        <div class="row" >
+          <div class="col col-lg-4" data-aos="zoom-in-right" data-aos-duration="100000">
+            <div class="card border-light mb-3">
               <div class="card-header">Features</div>
               <div class="card-body">
                 <h5 class="card-title">Fast, Reliable App</h5>
@@ -129,7 +137,7 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="card border-info mb-3" >
+            <div class="card border-light mb-3" data-aos="zoom-in-right" data-aos-duration="100000">
               <div class="card-header">Features</div>
               <div class="card-body">
                 <h5 class="card-title">Best Computer Vision techniques</h5>
@@ -138,7 +146,7 @@
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="card border-info mb-3">
+            <div class="card border-light mb-3" data-aos="zoom-in-right" data-aos-duration="100000">
               <div class="card-header">Features</div>
               <div class="card-body">
                 <h5 class="card-title">High Quality Data</h5>
@@ -150,8 +158,8 @@
 
       <!-- Second row -->
       <div class="row mt-5">
-        <div class="col col-lg-3">
-          <div class="card border-info mb-3">
+        <div class="col col-lg-3" data-aos="zoom-out-left" data-aos-duration="100000">
+          <div class="card border-light mb-3" >
             <div class="card-header">
               <i class="bi bi-android2"></i>
               App</div>
@@ -161,8 +169,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card border-info mb-3" >
+        <div class="col-lg-3" data-aos="zoom-out-left" data-aos-duration="100000">
+          <div class="card border-light mb-3" >
             <div class="card-header">
               <i class="bi bi-gear-wide-connected"></i>
               Systems</div>
@@ -172,8 +180,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="card border-info mb-3">
+        <div class="col-lg-6" data-aos="zoom-out-left" data-aos-duration="100000">
+          <div class="card border-light mb-3" >
             <div class="card-header">
               <i class="bi bi-server"></i>
               Server
@@ -187,8 +195,8 @@
        </div>
    <!-- Second row -->
    <div class="row mt-5">
-    <div class="col col-lg-4">
-      <div class="card border-info mb-3">
+    <div class="col col-lg-4" data-aos="zoom-in-right" data-aos-duration="100000"> 
+      <div class="card border-light mb-3">
         <div class="card-header">
           <i class="bi bi-android2"></i>
           App</div>
@@ -198,8 +206,8 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="card border-info mb-3" >
+    <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="100000">
+      <div class="card border-light mb-3" >
         <div class="card-header">
           <i class="bi bi-behance"></i>
           Design</div>
@@ -209,8 +217,8 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="card border-info mb-3">
+    <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="100000"> 
+      <div class="card border-light mb-3">
         <div class="card-header">
           <i class="bi bi-basket-fill"></i>
           Products
@@ -228,26 +236,29 @@
         </section>
 
         <!-- App Screenshote -->
-          <section id="app" class="app-section">
+          <section id="app" class="app-section bg-light">
               <div class="container">
-                  <h2 class="display-5 text-muted text-center">App Screenshots</h2>
+                  <h2 class="display-5 text-muted text-center" data-aos="fade-up" data-aos-duration="100000">App Screenshots</h2>
 
               </div>
           </section>
+
       <!-- Download section -->
           <section id="download" class="download-section pt-5">
              <div>
-                <h1 class="display-5 text-muted text-center">
+                <h1 class="display-5 text-muted text-center" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                   Download our app
-                  <p class="muted h6 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                  <p class="muted h6 mt-3" Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
                 </h1>
                
 
                 <div class="container">
                   <div class="row justify-content-center mt-3">
                     
-                    <div class="col-lg-12 mt-5">
-                      <a href="https://github.com/cashierc/server" target="_blank">
+                    <div class="col-lg-12 mt-5" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
+                      <a href="https://github.com/cashierc/server" target="_blank"  data-aos="fade-up-right" data-aos-duration="100000" >
                         <button class="btn btn-outline-secondary btn-lg">
                           <i class="bi bi-github"></i>
                           Github
@@ -255,8 +266,9 @@
                       </a>
                       <p class="lead mt-1">Download from Github (Direct download apk).</p>
                     </div>
-                    <div class="col-lg-12 mt-5">
-                      <a href="https://play.google.com/store/apps/details?id=com.cashierc&hl=en&gl=US" target="_blank" class="mt-3">
+                    <div class="col-lg-12 mt-5"  data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
+                      <a href="https://play.google.com/store/apps/details?id=com.cashierc&hl=en&gl=US" target="_blank" class="mt-3"  >
                         <button class="btn btn-outline-secondary btn-lg">
                           <i class="bi bi-google-play"></i>
                           Play Store</button>
@@ -267,35 +279,222 @@
                   </div>
                   </div>
                 </div>
-
-
-
-
              </div>
          </section>
+
+      <!-- About Us -->
+    <section id="about-us"  class=" bg-light " style="height: 700px;">
+     
+      <section  class=" text-center bg-light" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+        <span class="display-6">Team Photo</span>
+        <h1 style="margin-top: 200px;" class="--bs-warning-border-subtle">Our team in Faculty of Engineering Mansoura University</h1>
+        
+        </div>
+    </section>
+    
+    <!-- first member row -->
+    <div class="container mt-5 member-light" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Mahmoud Elmorsy</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Computer Vision-Ai</p>
+        </div>
+      </div>
+    </div>
+
+   <!-- second member row -->
+    <div class="container mt-1 member-dark" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Ahmed Arafat</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Android-IOS App-Flutter</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- second member row -->
+     <div class="container mt-1 member-light" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Mahmoud Abdo</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Backend-Server</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- fourth member row -->
+     <div class="container mt-1 member-dark" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Hazem Elkhamisi</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Computer Vision-Ai</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- second member row -->
+     <div class="container mt-1 member-light" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;"> 
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Mahmoud Elsaeed</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">UI UX</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- sixth member row -->
+     <div class="container mt-1 member-dark" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Mohsen Essam</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Data Warehouse</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- second member row -->
+     <div class="container mt-1 member-light" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Ahmed Fouad</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Android App</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- second member row -->
+     <div class="container mt-1 member-dark" data-aos="fade-up-right" data-aos-duration="100000" style=" transition: all 0.8s;">
+      <div class="row">
+        <div class="col-1 text-center">
+          <i class="bi bi-person-video"></i>
+        </div>
+
+        <div class="col-11">
+          <span>Tareq Mohamed</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center">
+          
+        </div>
+
+        <div class="col-11">
+          <p class="lead">Front End Ui</p>
+        </div>
+      </div>
+    </div>
+
+
+   </section>
+
      <!-- Frameworks and tools -->
-        <div style="background-color: #353d44;">
+        <div style="background-color: #353d44;" class="frameworks">
           <div class="container bg-div text-center">
-            <span class="f-title display-5">Frameworks and Tools</span>
-            <blockquote class="blockquote">
+            <span class="f-title display-5" data-aos="zoom-out-down">Frameworks and Tools</span>
+            <blockquote class="blockquote" data-aos="zoom-out-down">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, debitis.</p>
               </blockquote>
-            <div class="row my-5 animate__animated animate__slideInDown">
-              <div class="col">
+            <div class="row my-5">
+              <div class="col" data-aos="zoom-out-down">
                 
                 <div>
                     <img src="icons/VscodeIconsFileTypeFlutter.svg" width="45px">
                     <span class="text-white icon-title">Flutter</span>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" data-aos="zoom-out-down">
                
                 <div>
                     <img src="icons/LogosLaravel.svg" width="45px">
                     <span class="text-white icon-title">PHP Laravel</span>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" data-aos="zoom-out-down">
                
                 <div>
                     <img src="icons/DeviconFigma.svg" width="45px">
@@ -304,22 +503,22 @@
               </div>
             </div>
     
-            <div class="row my-5 animate__animated animate__slideInDown">
-                <div class="col">
+            <div class="row my-5">
+                <div class="col" data-aos="zoom-out-down">
                   
                   <div>
                       <img src="icons/DeviconOpencv.svg" width="45px">
                       <span class="text-white icon-title">OpenCV</span>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-out-down">
                  
                   <div>
                       <img src="icons/TeenyiconsPythonOutline.svg" width="45px">
                       <span class="text-white icon-title">Python</span>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-out-down"> 
                  
                   <div>
                       <img src="icons/DeviconBootstrap.svg" width="45px">
@@ -327,15 +526,15 @@
                   </div>
                 </div>
               </div>
-              <div class="row animate__animated animate__slideInDown lastRow">
-                <div class="col my-5">
+              <div class="row lastRow">
+                <div class="col my-5" data-aos="zoom-out-down">
                   <div>
                       <img src="icons/OpenmojiRaspberryPi.svg" width="45px">
                       <span class="text-white icon-title ">Raspberry Pi</span>
                   </div>
                 </div>
     
-                <div class="col my-5">
+                <div class="col my-5" data-aos="zoom-out-down">
                     <div>
                         <img src="icons/SimpleIconsDatabricks.svg" width="45px">
                         <span class="text-white icon-title ">Data Engineering Concepts</span>
@@ -348,10 +547,17 @@
         </div>
 
       
-    
-     
+
             
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+      
+    <!-- Animation on Scroll-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+
+  </body>
 </html>
