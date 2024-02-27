@@ -24,7 +24,7 @@
 }
 
 .f-title:hover{
-    color: #84898d;
+    color: rgb(186, 186, 186);
 }
 .blockquote{
     margin: 12px 0;
@@ -32,3 +32,9 @@
     color: white;
 }
 
+.frameworks{
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}

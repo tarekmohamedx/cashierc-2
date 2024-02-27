@@ -3,14 +3,16 @@ About Section
 Video Section
 App Screenshots Section
 
-Cards, Features
-Tools and Frameworks
+Processing - Levels Section
+
+Cards, Features Section
+Tools and Frameworks Section
 Download Section
 Footer Section
 
 Colors ->
 Dark Gray: #212529
-White: Litert white
+White: literally white
 #6c63ff
 
 Frameworks ->

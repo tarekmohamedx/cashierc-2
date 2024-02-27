@@ -1,0 +1,11 @@
+.doc-link{
+    color: white;
+    text-decoration: none;
+}
+.doc-link:hover{
+    color: rgb(186, 186, 186);
+}
+
+hr{
+    color: white;
+}
